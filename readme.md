@@ -1,4 +1,4 @@
-#  Developer Portfolio
+#  Manish's Portfolio
 
 Welcome to my portfolio repository! This project showcases my skills, experience, and the projects I’ve built as a developer. Here you’ll find a collection of my work presented in an interactive, responsive, and visually appealing format.
 
