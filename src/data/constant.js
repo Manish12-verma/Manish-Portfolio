@@ -64,3 +64,33 @@ export const skills = [
     ],
   },
 ];
+
+export const projects = [
+      {
+        id:1,
+        title:"Klimate-an weather app", 
+        description: "A modern weather app built with React, TypeScript, Tailwind CSS, Shadcn UI, TanStack Query, and Recharts. It displays real-time weather updates and visual insights through interactive charts, offering a clean, fast, and responsive user experience.",
+        image:"/projects/project3.png",
+        tags:["React","TypeScript","Tailwind CSS","Shadcn UI","Recharts"],
+        githubUrl:"https://github.com/Manish12-verma/Klimate",
+        live:"https://klimate-blond.vercel.app/",
+      },
+      {
+        id:2,
+        title:"Chattrix", 
+        description: "Chattrix is a real-time chat application built with the MERN stack (MongoDB, Express, React, Node.js) that leverages Socket.io for instant, bidirectional communication. It enables users to exchange messages and share images seamlessly, providing a smooth and interactive chatting experience.",
+        image:"/projects/project2.png",
+        tags:["React","Socket.io","Tailwind CSS","Express.js","MongoDB","JWT", "Node.js","React Router"],
+        githubUrl:"https://github.com/Manish12-verma/Chattrix",
+        live:"https://chattrix-tan.vercel.app/login",
+      },
+      {
+        id:3,
+        title:"Sorting visualizer", 
+        description: "Sorting algorithms are crucial for efficient data organization and retrieval in computer science. Understanding these algorithms can be challenging, but visualizing their operation provides valuable insights into their mechanics. This project aims to enhance learning by providing an interactive web application that visually represents various sorting algorithms.",
+        image:"/projects/project1.png",
+        tags:["Html","CSS","JavaScript","Sorting Algorithms"],
+        githubUrl:"https://github.com/Manish12-verma/Sorting-visualizer",
+        live:"https://sorting-visualizer-sand-xi.vercel.app/",
+      },
+];
