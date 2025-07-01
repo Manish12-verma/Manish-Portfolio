@@ -10,9 +10,12 @@ import {
 import { cn } from "../lib/utils";
 import { toast } from "sonner";
 import { useState } from "react";
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 export const ContactSection = () => {
-    
+     const form = useRef();
     const [isSubmitting, setIsSubmitting] = useState(false);
 
 
@@ -20,12 +23,22 @@ export const ContactSection = () => {
       e.preventDefault();
     setIsSubmitting(true);
       setTimeout(() => {
-          toast.success("Your message has been sent successfully!");
+        emailjs.sendForm('service_g489oh6', 'template_lbqjgv6', form.current, {
+        publicKey: '4LfRLiRP7nA1TV0Ft',
+      })
+      .then(
+        () => {
+         toast.success("Your message has been sent successfully!");
+        },
+        () => {
+         toast.error("Failed to send message. Please try again later.");
+        },
+      );
            setIsSubmitting(false);
       },1500)
       
      
-      e.target.reset(); // Reset the form after submission
+       form.current.reset(); 
     }
 
   return (
@@ -90,7 +103,7 @@ export const ContactSection = () => {
           </div>
           <div className="bg-card p-8 rounded-lg shadow-md" onSubmit={handleSubmit}>
             <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-            <form className="space-y-6">
+            <form className="space-y-6"  ref={form}>
               <div>
                 <label
                   htmlFor="name"
@@ -101,7 +114,7 @@ export const ContactSection = () => {
                 <input
                   type="text"
                   id="name"
-                  name="name"
+                  name="user_name"
                   placeholder="Manish verma...."
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary "
@@ -117,7 +130,7 @@ export const ContactSection = () => {
                 <input
                   type="email"
                   id="name"
-                  name="name"
+                  name="user_email"
                   placeholder="manish120903@gmail.com"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
