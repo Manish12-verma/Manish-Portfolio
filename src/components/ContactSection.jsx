@@ -38,7 +38,7 @@ export const ContactSection = () => {
       },1500)
       
      
-       form.current.reset(); 
+       e.target.reset(); // Reset the form after submission
     }
 
   return (
