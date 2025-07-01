@@ -1,3 +1,5 @@
+import { AboutSection } from "../components/AboutSection";
+import { HeroSection } from "../components/HeroSection";
 import { NavBar } from "../components/Navbar";
 import { StarBackground } from "../components/StarBackground";
 import { ThemeToggle } from "../components/ThemeToggle";
@@ -13,7 +15,10 @@ export const Home = () => {
       {/* Navbar */}
        <NavBar/>
       {/* Main Content */}
-      
+       <main>
+        <HeroSection/>
+        <AboutSection/>
+       </main>
 
       {/* Footer */}
       
