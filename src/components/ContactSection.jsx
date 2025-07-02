@@ -89,10 +89,10 @@ export const ContactSection = () => {
                 >
                   <Linkedin />
                 </a>
-                <a href="" target="_blank">
+                <a href="https://x.com/Manish_v03?t=E2Ns-lGBgtoZBPhsjWbODg&s=09" target="_blank">
                   <Twitter />
                 </a>
-                <a href="" target="_blank">
+                <a href="https://www.instagram.com/manish.12__?igsh=MWg0eGtteXkyczZ1eQ==" target="_blank">
                   <Instagram />
                 </a>
                 <a href="https://github.com/Manish12-verma" target="_blank">
