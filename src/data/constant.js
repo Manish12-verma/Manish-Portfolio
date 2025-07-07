@@ -128,4 +128,13 @@ export const projects = [
         githubUrl:"https://github.com/Manish12-verma/Sorting-visualizer",
         live:"https://sorting-visualizer-sand-xi.vercel.app/",
       },
+      {
+        id:4,
+        title:"EraseIt - Background Remover", 
+        description: "EraseIt is a modern web application that automatically removes backgrounds from images using ClipDrop's third-party API. Built with React, Node.js,MongoDB and integrated with Clerk for authentication and Razorpay for payments.",
+        image:"/projects/project4.png",
+        tags:["Reactjs","ClerkAuth","Tailwind Css","REST APIs","MongoDb","Razorpay","Node.js","Express.js","clipDrop API"],
+        githubUrl:"https://github.com/Manish12-verma/EraseIt",
+        live:"https://erase-it-vw2d.vercel.app/",
+      },
 ];
