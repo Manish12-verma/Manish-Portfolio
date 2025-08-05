@@ -138,12 +138,20 @@ export const projects = [
         live:"https://erase-it-vw2d.vercel.app/",
       },
       {
-        id:4,
+        id:5,
         title:"Taskly.AI", 
         description: "Taskly.AI is a modern AI-powered platform for content creation, image generation, and document processing. Built with React, Vite, and Tailwind CSS, it delivers high performance and a fully responsive UI. The app features modular architecture, secure authentication with Clerk, and user-friendly components powered by Radix UI and Lucide icons. With intelligent tools for writing, editing, and design, Taskly.AI enables fast, scalable, and efficient content generation for creators and professionals.",
         image:"/projects/project5.png",
         tags:["Reactjs","ClerkAuth","Tailwind CSS","React-Router-dom","Prebuilt UI","React Toastify","Lucide Icons"],
         githubUrl:"https://github.com/Manish12-verma/Taskly.Ai",
         live:"https://taskly-ai-six.vercel.app/",
-      },
+      },{
+        id:6,
+        title:"Password Generator",
+        description:"A modern, secure password generator built with React and Vite. Generate strong, customizable passwords with real-time strength assessment and easy copy functionality.",
+        image:"/projects/project6.png",
+        tags:["React","Vite","CSS","JavaScript"],
+        githubUrl:"https://github.com/Manish12-verma/Password-Generator",
+        live:"https://password-generator-six-zeta-98.vercel.app/",
+      }
 ];
