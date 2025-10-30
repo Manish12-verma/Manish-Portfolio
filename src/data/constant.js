@@ -60,6 +60,11 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
+      {
+        name: "PL/SQL",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0bVQ0h3I9aHxRtp1aw_x0p0GOhC1satdpKw&s",
+      },
        {
         name: "MongoDB",
         image:
